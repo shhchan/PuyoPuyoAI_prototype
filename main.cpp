@@ -2,5 +2,5 @@
 
 int main()
 {
-    std::cout << "Hello World!\n";
+  std::cout << "\033[41m  \033[0m";
 }
