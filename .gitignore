@@ -98,6 +98,12 @@ StyleCopReport.xml
 *.svclog
 *.scc
 
+# github に上げる必要のないものを追加
+*.sln
+*.vcxproj
+*.vcxproj.filters
+
+
 # Chutzpah Test files
 _Chutzpah*
 
