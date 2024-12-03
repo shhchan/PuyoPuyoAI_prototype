@@ -3,7 +3,7 @@
 
 enum Color {
 	EMPTY = 40,		// çï
-	RED	= 41,		// ê‘
+	RED = 41,		// ê‘
 	BLUE = 44,		// ê¬
 	YELLOW = 43,		// â©
 	GREEN = 42,		// óŒ
