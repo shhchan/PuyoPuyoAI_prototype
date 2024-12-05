@@ -6,13 +6,16 @@
 class Piece {
 
 public:
+	// メンバ
 	int px;
 	int py;
 	Color color;
 
+	// メンバ関数
 	void _display_piece(void);
 
-	Piece(int px = 0, int py = 0, Color color = Color::EMPTY);
+	// コンストラクタ
+	Piece(Color color = Color::EMPTY, int py = 0, int px = 0);
 };
 
 #endif

@@ -1,6 +1,6 @@
 #include "piece.hpp"
 
-Piece::Piece(int px, int py, Color color) {
+Piece::Piece(Color color, int py, int px) {
 	this->px = px;
 	this->py = py;
 	this->color = color;
