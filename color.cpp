@@ -25,6 +25,9 @@ void put_color(Color c) {
 	case Color::WASTED:
 		color_code = 100;
 		break;
+	case Color::WALL:
+		color_code = 46;
+		break;
 	default:
 		throw std::runtime_error("不適切な Color が指定されています．");
 	}

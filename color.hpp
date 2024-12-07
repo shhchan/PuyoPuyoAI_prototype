@@ -9,6 +9,7 @@ enum Color {
 	GREEN, // 緑
 	PURPLE, // 紫
 	WASTED, // おじゃま
+	WALL, // 壁
 	COLOR_MAX // 色の数をカウント
 };
 
