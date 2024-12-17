@@ -14,5 +14,6 @@ enum Color {
 };
 
 void put_color(Color);
+Color random_color(void);
 
 #endif

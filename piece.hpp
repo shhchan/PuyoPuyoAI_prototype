@@ -15,7 +15,8 @@ public:
 	void _display_piece(void);
 
 	// コンストラクタ
-	Piece(Color color = Color::EMPTY, int py = 0, int px = 0);
+	Piece(Color color, int py = 0, int px = 0);
+	Piece(int py = 0, int px = 0);
 };
 
 #endif

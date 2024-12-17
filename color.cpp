@@ -1,5 +1,6 @@
 #include "color.hpp"
 #include <iostream>
+#include <cstdlib> // std::rand
 
 void put_color(Color c) {
 	int color_code;
@@ -33,4 +34,8 @@ void put_color(Color c) {
 	}
 
 	std::cout << "\033[" << color_code << "m  \033[0m";
+}
+
+Color random_color(void) {
+	return static_cast<Color>(std::rand() % 5 + 1);
 }
